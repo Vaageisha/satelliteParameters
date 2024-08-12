@@ -15,9 +15,9 @@ The program processes the images, computes the angular velocity for each frame, 
 
 ## Prerequisites :
   
-    - Python 3.7+
-    - OpenCV for image processing (`opencv-python`)
-    - NumPy for numerical computations (`numpy`)
+- Python 3.7+
+- OpenCV for image processing (`opencv-python`)
+- NumPy for numerical computations (`numpy`)
 
 ## Features:
 
@@ -46,18 +46,19 @@ equation that incorporates key orbital parameters.
    
 
 ## 3. Number of Photons collected Calculation:
-     We will calculate the number of photons collected by the sensor, by calculating the apparent magnitude, flux and photon count for the same.
+
+ We will calculate the number of photons collected by the sensor, by calculating the apparent magnitude, flux and photon count for the same.
     
 ## Features:
 
-    1.Apparent Magnitude Calculation:
-    Calculates the apparent magnitude of a satellite based on its flux, telescope aperture, and distance from Earth.
+1.Apparent Magnitude Calculation:
+  Calculates the apparent magnitude of a satellite based on its flux, telescope aperture, and distance from Earth.
     
-    2.Flux Calculation:
-    Determines the flux received from the satellite, adjusted for its apparent magnitude.
+2.Flux Calculation:
+  Determines the flux received from the satellite, adjusted for its apparent magnitude.
     
-    3.Photon Count Calculation:
-    Computes the number of photons detected by the telescope during the observation period, considering telescope efficiency and mirror loss.
+ 3.Photon Count Calculation:
+   Computes the number of photons detected by the telescope during the observation period, considering telescope efficiency and mirror loss.
     
 
 
